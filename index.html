@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>week8_zad3</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="main_container">
+        <div class="main_container__logo">
+            <img src="./assets/icon/logo-1.png" alt="logo" class="main_container__logo">
+        </div>
+        <div class="main_container__trash">
+            <button class="btn custom-btn">Корзина
+                <img src="./assets/icon/bag.png" alt="trash" class="main_container__icon-trash">
+            </button>
+        </div>
+        <div class="main_container__opisanie">
+            <div class="main_container__text">
+                <h1 class="main_container__name">Виртуальная реальность без проводов</h1>
+                <p class="main_container__discription">Лучшее, что случалось с виртуальным миром в реальности. Новый
+                    компактный шлем без проводов и дорогих комьютеров.</p>
+                <button class="btn custom-btn">Купить
+                    <img src="./assets/icon/card-2.png" alt="card" class="main_container__icon-card">
+                </button>
+            </div>
+            <img src="./assets/img/boy.png" alt="boy" class="main_container__img-boy">
+
+        </div>
+
+        <nav class="main_container__menu">
+            <div class="main_container__menu-links">
+                <li><a class="link" href="#">Возможности</a> </li>
+                <li><a class="link" href="#">Где купить</a> </li>
+                <li><a class="link" href="#">Доставка</a> </li>
+                <li><a class="link" href="#">Помощь</a> </li>
+            </div>
+        </nav>
+    </div>
+
+    <div class="second_container">
+        <div class="second_container__logo">
+            <img src="./assets/icon/logo-1.png" alt="logo" class="second_container__logo">
+        </div>
+        <div class="second_container__trash">
+            <button class="btn custom-btn">Корзина
+                <img src="./assets/icon/bag.png" alt="bag" class="second_container__icon-trash">
+            </button>
+        </div>
+
+        <h2 class="second_container__name">Возможности</h2>
+        <div class="second_container__cards">
+            <div class="card" style="width: 18rem;">
+                <img src="./assets/icon/praktikum3 1.png" class="card-img-top" alt="first_pic">
+                <div class="card-body">
+                    <h5 class="card-title">Без проводов</h5>
+                    <p class="card-text">Шлем работает без проводов. Не нужен ни компьютер, ни внешнее питание, ни
+                        большое помещение, чтобы расставить трекеры.</p>
+                    <h5 class="card-title">Сотни игр</h5>
+                    <p class="card-text">Уже сейчас вам доступно более сотни игр: от высокобюджетных ААА-тайтлов до
+                        маленьких независимых проектов. Скоро их станет еще больше.</p>
+
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="./assets/icon/praktikum2 1.png" class="card-img-top" alt="second_pic">
+                <div class="card-body">
+                    <h5 class="card-title">Без компьютера</h5>
+                    <p class="card-text">Современным VR-шлемам нужен мощный компьютер, чтобы запускать игры. Наш шлем
+                        запускает игры из облака, поэтому просто наслаждайтесь.</p>
+                    <h5 class="card-title">Почти даром</h5>
+                    <p class="card-text">По сравнению с другими VR-шлемами наш стоит гораздо меньше. И вы существенно
+                        экономите на мощном компьютере.</p>
+
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="./assets/icon/praktikum1 1.png" class="card-img-top" alt="third-pic">
+                <div class="card-body">
+                    <h5 class="card-title">До 10 часов работы</h5>
+                    <p class="card-text">Несмотря на компактность и производительность, шлем может работать до 10 часов
+                        — даже, если вы играете в самые ресурсоемкие игры..</p>
+
+                    <div class="second_container__form-mail">
+                        <div class="second_container__together">
+                            <h5 class="second_container__name-form">Новости</h5>
+                            <form class="second_container__subscribe" action="/submit" method="post">
+                                <label for="email" id="email" name="email"></label>
+                                <input type="email" id="email" name="email" placeholder="example@example.com required">
+                            </form>
+                            <button class="btn custom-btn">Подписаться</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <nav class="second_container__menu">
+            <div class="second_container__menu-links">
+                <li><a class="link" href="#">Возможности</a> </li>
+                <li><a class="link" href="#">Где купить</a> </li>
+                <li><a class="link" href="#">Доставка</a> </li>
+                <li><a class="link" href="#">Помощь</a> </li>
+            </div>
+        </nav>
+
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

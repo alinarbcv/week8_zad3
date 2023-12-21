@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main_container {
+    max-width: 1292px;
+
+    .main_container__logo {
+        position: relative;
+        width: 201px;
+        height: 40px;
+        margin-top: 50px;
+        margin-left: 76px;
+
+    }
+
+
+    .main_container__trash {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 74px;
+        padding-top: 49px;
+
+
+        .custom-btn {
+            background-color: purple;
+            border-color: purple;
+            color: white;
+        }
+
+        .custom-btn:hover {
+            background-color: darkpurple;
+            border-color: darkpurple;
+        }
+    }
+
+    .main_container__opisanie {
+        display: flex;
+        justify-content: flex-start;
+        padding-left: 126px;
+
+
+
+
+        .custom-btn {
+            width: 270px;
+            background-color: purple;
+            border-color: purple;
+            color: white;
+            color: var(--, #FFF);
+            font-family: Intro;
+            font-size: 35px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            cursor: pointer;
+
+        }
+
+        .custom-btn:hover {
+            background-color: darkpurple;
+            border-color: darkpurple;
+        }
+
+        .main_container__name {
+            color: var(--, #000);
+            font-family: Intro;
+            font-size: 60px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 120%;
+            width: 542px;
+            height: 216px;
+        }
+
+        .main_container__discription {
+            color: var(--, #000);
+            font-family: Roboto Slab;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 160%;
+            width: 500px;
+            height: 216px;
+            margin-top: 30px;
+        }
+    }
+
+    .main_container__img-boy {
+        position: relative;
+        width: 80%;
+        height: 100%;
+        margin: 0 auto;
+
+
+    }
+
+    .main_container__menu {
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        gap: 1rem;
+
+        .main_container__menu-links {
+            display: flex;
+            justify-content: space-between;
+            list-style: none;
+            gap: 1rem;
+            padding-left: 126px;
+
+
+            .link {
+                text-decoration: none;
+                color: #5222D0;
+                font-family: Roboto Slab;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 300;
+                line-height: 160%;
+
+            }
+        }
+    }
+}
+
+.second_container {
+    max-width: 1292px;
+
+    .second_container__logo {
+        position: relative;
+        width: 201px;
+        height: 40px;
+        margin-top: 50px;
+        margin-left: 76px;
+    }
+
+    .second_container__trash {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 74px;
+        padding-top: 49px;
+
+
+        .custom-btn {
+            background-color: purple;
+            border-color: purple;
+            color: white;
+        }
+
+        .custom-btn:hover {
+            background-color: darkpurple;
+            border-color: darkpurple;
+        }
+
+    }
+
+    .second_container__name {
+        color: var(--, #000);
+        font-family: Intro;
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 120%;
+        padding-left: 125px;
+    }
+
+    .second_container__cards {
+        display: flex;
+        justify-content: space-between;
+        gap: 1rem;
+        padding-left: 92px;
+        padding-top: 14px;
+
+
+        .second_container__cards :last-child {
+            padding-right: 72px;
+        }
+
+        .card {
+            border: solid red 2px;
+
+            .card-img-top {
+                background-color: rgb(193, 83, 83);
+            }
+        }
+
+        .card-body {
+
+
+            .card-title {
+                color: var(--, #000);
+                font-family: Intro;
+                font-size: 30px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 120%;
+            }
+
+            .card-text {
+                color: var(--, #000);
+                font-family: Roboto Slab;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 300;
+                line-height: 160%;
+            }
+        }
+    }
+
+    .second_container__menu {
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        gap: 1rem;
+        padding-top: 86px;
+
+        .second_container__menu-links {
+            display: flex;
+            justify-content: space-between;
+            list-style: none;
+            gap: 1rem;
+            padding-left: 126px;
+
+
+            .link {
+                text-decoration: none;
+                color: gray;
+                font-family: Roboto Slab;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 300;
+                line-height: 160%;
+
+            }
+        }
+    }
+
+    .second_container__form-mail {
+        background-color: rgb(193, 83, 83);
+        width: 100%;
+        height: 233px;
+
+        .second_container__together {
+            display: flex;
+            flex-direction: column;
+            padding-left: 18px;
+            gap: 1rem;
+            color: white;
+
+            .second_container__subscribe {
+                width: 100%;
+            }
+
+            .second_container__name-form {
+                color: var(--, #FFF) !important;
+                font-family: Intro;
+                font-size: 30px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 120%;
+                padding-top: 25px;
+
+            }
+
+            .custom-btn {
+                background-color: purple;
+                border-color: purple;
+                color: white;
+                width: 130px;
+            }
+
+            .custom-btn:hover {
+                background-color: darkpurple;
+                border-color: darkpurple;
+            }
+        }
+    }
+}
